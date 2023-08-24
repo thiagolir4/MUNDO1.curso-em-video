@@ -1,0 +1,7 @@
+ola = input('Você chegou ao fim do bimestre, digite aqui o nome do aluno que iremos calcular sua média ...')
+n1 = float(input('Bom {}, qual foi sua nota to primeiro bimestre?'.format(ola)))
+n2 = float(input('E qual foi sua nota do segundo bimestre?'))
+media = ((n1 + n2) / 2) 
+print('='*50)
+print('Parabens {}, sua média bimestral foi de {}'.format(ola, media))
+print('='*50)
